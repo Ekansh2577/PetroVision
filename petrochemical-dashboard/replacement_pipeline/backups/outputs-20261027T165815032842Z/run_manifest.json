@@ -1,0 +1,99 @@
+{
+  "pipeline_name": "PetroVision replacement synthetic demand forecast",
+  "methodology_status": "new_replacement_not_recovered_original",
+  "generated_at_utc": "2026-10-27T16:56:17.179031+00:00",
+  "source_path": "C:\\Users\\ekans\\OneDrive\\Desktop\\HCL-Tech Project\\petrochemical-dashboard\\public\\data\\Petrochemical_Raw_Messy_Dataset_Large.csv",
+  "source_sha256": "4060e658231dc8f93bcef42cb2be737210afef47e39a23c7cb16c389c37151cf",
+  "mapping_path": "C:\\Users\\ekans\\OneDrive\\Desktop\\HCL-Tech Project\\petrochemical-dashboard\\public\\data\\product_name_mapping.csv",
+  "mapping_sha256": "1464cd817d5a53c7abc9d2ef4181b55b12da7c9ed94cdf0f740ad18663e970ec",
+  "source_rows": 3200,
+  "data_as_of_date": "2025-12-01",
+  "evaluation": {
+    "strategy": "two non-overlapping fixed-origin recursive six-month folds",
+    "origins": [
+      "2025-01-01",
+      "2025-07-01"
+    ],
+    "training_rule": "training targets strictly earlier than each origin",
+    "horizon_months": 6,
+    "prediction_rows": 120,
+    "eligible_targets": 117,
+    "metrics_file": "evaluation_metrics.csv",
+    "combined_metrics": [
+      {
+        "Fold": "ALL_FOLDS",
+        "Model": "Naive_Last_Observed",
+        "Product": "ALL",
+        "Sample_Count": 117,
+        "MAE": 5251.323076923075,
+        "RMSE": 6738.867180423175,
+        "R2": 0.9544832483544631
+      },
+      {
+        "Fold": "ALL_FOLDS",
+        "Model": "Random_Forest_Recursive",
+        "Product": "ALL",
+        "Sample_Count": 117,
+        "MAE": 4734.711965679395,
+        "RMSE": 7150.377653411596,
+        "R2": 0.9487545363056743
+      }
+    ]
+  },
+  "future_forecast": {
+    "as_of_date": "2025-12-01",
+    "dates": [
+      "2026-01-01",
+      "2026-02-01",
+      "2026-03-01",
+      "2026-04-01",
+      "2026-05-01",
+      "2026-06-01"
+    ],
+    "horizon_months": 6,
+    "rows": 60
+  },
+  "model": {
+    "comparison": [
+      "Naive_Last_Observed",
+      "Random_Forest_Recursive"
+    ],
+    "random_forest_parameters": {
+      "n_estimators": 300,
+      "max_depth": 8,
+      "min_samples_leaf": 3,
+      "random_state": 42,
+      "n_jobs": -1
+    },
+    "features": [
+      "latest_prior_demand_tonnes",
+      "months_since_latest_observation",
+      "calendar_month_sin",
+      "calendar_month_cos"
+    ],
+    "excluded_features": [
+      "prices: unit consistency and future availability are not established",
+      "economic/operating covariates: future values or as-of vintages are not supplied",
+      "aliases: source series remain separate pending domain confirmation"
+    ],
+    "recursive_strategy": "only prior observations before origin, then prior predictions; held-out actuals are not fed back",
+    "minimum_history_observations": 24
+  },
+  "assumptions_and_limitations": [
+    "Synthetic/demo data only; source provenance is unavailable.",
+    "Reviewed aliases are not merged; only configured primary source labels are modeled.",
+    "Ambiguous slash dates and invalid targets are audited and excluded, never guessed or imputed.",
+    "Pricing and exogenous market features are not used; their future availability is unverified.",
+    "R2 is blank when a metric group has fewer than two samples or zero actual variance.",
+    "This is a new replacement methodology, not the original model or an assertion of model validity."
+  ],
+  "output_files": [
+    "preprocessing_audit.csv",
+    "data_audit.json",
+    "data_audit.md",
+    "evaluation_predictions.csv",
+    "evaluation_metrics.csv",
+    "future_forecasts.csv"
+  ],
+  "backed_up_previous_outputs_to": "C:\\Users\\ekans\\OneDrive\\Desktop\\HCL-Tech Project\\petrochemical-dashboard\\replacement_pipeline\\backups\\outputs-20261027T165431147652Z"
+}

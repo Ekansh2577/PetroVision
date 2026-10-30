@@ -1,0 +1,28 @@
+product_variant,canonical_product,mapping_status
+A.B.S.,ABS,reviewed_alias
+ABS,ABS,reviewed_alias
+ABS RESIN,ABS,reviewed_alias
+ETHYLENE VINYL ACETATE (EVA),EVA,reviewed_alias
+ETHYLENE-VINYL ACETATE,EVA,reviewed_alias
+EVA,EVA,reviewed_alias
+HDPE,HDPE,reviewed_alias
+HIGH DENSITY POLYETHYLENE,HDPE,reviewed_alias
+LDPE,LDPE,reviewed_alias
+LOW DENSITY POLYETHYLENE,LDPE,reviewed_alias
+LLDPE,LLDPE,reviewed_alias
+LINEAR LOW DENSITY PE,LLDPE,reviewed_alias
+P.E.T.,PET,reviewed_alias
+PET,PET,reviewed_alias
+PET RESIN,PET,reviewed_alias
+P.V.C.,PVC,reviewed_alias
+PVC,PVC,reviewed_alias
+PC,PC,reviewed_alias
+POLY CARBONATE,PC,reviewed_alias
+POLYCARBONATE,PC,reviewed_alias
+POLYCARBONATE (PC),PC,reviewed_alias
+POLYPROPYLENE,PP,reviewed_alias
+POLYPROPYLENE (PP),PP,reviewed_alias
+PP,PP,reviewed_alias
+POLYSTYRENE,PS,reviewed_alias
+POLYSTYRENE (PS),PS,reviewed_alias
+PS,PS,reviewed_alias

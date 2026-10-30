@@ -1,0 +1,21 @@
+Feature,Importance
+numeric__demand_rolling_mean_3,0.9166667442720741
+numeric__demand_lag_1,0.05648824797941261
+numeric__demand_lag_2,0.013707921511215788
+numeric__month,0.005499920766128826
+numeric__demand_lag_3,0.004248273826022968
+numeric__quarter,0.0012579904835719954
+product_encoder__product_POLYPROPYLENE (PP),0.0004220355235996484
+product_encoder__product_PVC,0.00039302974469445
+product_encoder__product_HDPE,0.0003918805998497536
+product_encoder__product_LLDPE,0.00029876952966706655
+product_encoder__product_PET,0.0002300838294188745
+product_encoder__product_LDPE,0.00017602635355276202
+product_encoder__product_POLYSTYRENE (PS),9.588785368779787e-05
+product_encoder__product_ABS,6.611617754832109e-05
+product_encoder__product_ETHYLENE VINYL ACETATE (EVA),2.4923569390845886e-05
+product_encoder__product_POLYCARBONATE (PC),2.043395701301143e-05
+product_encoder__product_POLYSTYRENE,1.1714023151298356e-05
+product_encoder__product_ABS RESIN,0.0
+product_encoder__product_ETHYLENE-VINYL ACETATE,0.0
+product_encoder__product_PS,0.0

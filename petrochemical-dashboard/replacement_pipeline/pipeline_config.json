@@ -1,0 +1,40 @@
+{
+  "source_csv": "../public/data/Petrochemical_Raw_Messy_Dataset_Large.csv",
+  "product_mapping_csv": "../public/data/product_name_mapping.csv",
+  "output_dir": "outputs",
+  "target_column": "Demand_Tonnes",
+  "primary_series": [
+    { "canonical": "ABS", "source_label": "ABS" },
+    { "canonical": "EVA", "source_label": "ETHYLENE VINYL ACETATE (EVA)" },
+    { "canonical": "HDPE", "source_label": "HDPE" },
+    { "canonical": "LDPE", "source_label": "LDPE" },
+    { "canonical": "LLDPE", "source_label": "LLDPE" },
+    { "canonical": "PET", "source_label": "PET" },
+    { "canonical": "PC", "source_label": "POLYCARBONATE (PC)" },
+    { "canonical": "PP", "source_label": "POLYPROPYLENE (PP)" },
+    { "canonical": "PS", "source_label": "POLYSTYRENE (PS)" },
+    { "canonical": "PVC", "source_label": "PVC" }
+  ],
+  "evaluation_origins": ["2025-01-01", "2025-07-01"],
+  "evaluation_horizon_months": 6,
+  "future_horizon_months": 6,
+  "minimum_history_observations": 24,
+  "random_forest": {
+    "n_estimators": 300,
+    "max_depth": 8,
+    "min_samples_leaf": 3,
+    "random_state": 42,
+    "n_jobs": 1
+  },
+  "model_features": [
+    "latest_prior_demand_tonnes",
+    "months_since_latest_observation",
+    "calendar_month_sin",
+    "calendar_month_cos"
+  ],
+  "excluded_model_features": [
+    "prices: unit consistency and future availability are not established",
+    "economic/operating covariates: future values or as-of vintages are not supplied",
+    "aliases: source series remain separate pending domain confirmation"
+  ]
+}

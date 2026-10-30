@@ -1,0 +1,233 @@
+{
+  "alias_rows_by_variant": {
+    "A.B.S.": 4,
+    "ABS Resin": 5,
+    "EVA": 2,
+    "Ethylene-vinyl acetate": 5,
+    "High Density Polyethylene": 3,
+    "Linear Low Density PE": 2,
+    "Low Density Polyethylene": 2,
+    "P.E.T.": 4,
+    "P.V.C.": 1,
+    "PC": 3,
+    "PET Resin": 4,
+    "PP": 2,
+    "PS": 5,
+    "Poly Carbonate": 3,
+    "Polystyrene": 5,
+    "eva": 2,
+    "polycarbonate": 1,
+    "polypropylene": 4,
+    "polystyrene": 2
+  },
+  "alias_rows_not_merged": 59,
+  "columns": [
+    "Date",
+    "Product",
+    "Demand_Tonnes",
+    "Sales_Volume_Tonnes",
+    "Production_Tonnes",
+    "Installed_Capacity_Tonnes",
+    "Capacity_Utilization_Percent",
+    "Import_Tonnes",
+    "Export_Tonnes",
+    "Inventory_Tonnes",
+    "Order_Backlog_Tonnes",
+    "Domestic_Price_INR_per_Tonne",
+    "Competitor_Price_INR_per_Tonne",
+    "International_Price_USD_per_Tonne",
+    "Price_Unit",
+    "Crude_Oil_USD_per_Barrel",
+    "Naphtha_USD_per_Tonne",
+    "Propylene_USD_per_Tonne",
+    "Ethylene_USD_per_Tonne",
+    "Natural_Gas_USD_per_MMBtu",
+    "USD_INR",
+    "Freight_USD_per_Tonne",
+    "Electricity_Cost_INR_per_kWh",
+    "WPI_Index",
+    "IIP_Index",
+    "Manufacturing_PMI",
+    "GDP_Growth_Percent",
+    "Interest_Rate_Percent",
+    "Construction_Activity_Index",
+    "Automotive_Production_Index",
+    "Packaging_Demand_Index",
+    "Temperature_C",
+    "Rainfall_mm",
+    "Humidity_Percent",
+    "Supplier_Lead_Time_Days",
+    "Plant_Downtime_Days",
+    "Port_Congestion_Index",
+    "Seasonal_Promotion_Flag"
+  ],
+  "date_status_counts": {
+    "ambiguous_slash_date": 52,
+    "parsed_day_month_name": 45,
+    "parsed_iso": 3015,
+    "parsed_month_year": 46,
+    "parsed_unambiguous_slash": 3,
+    "parsed_year_slash": 39
+  },
+  "domain_confirmation_aliases": [
+    "A.B.S.",
+    "ABS Resin",
+    "EVA",
+    "Ethylene-vinyl acetate",
+    "High Density Polyethylene",
+    "Linear Low Density PE",
+    "Low Density Polyethylene",
+    "P.E.T.",
+    "P.V.C.",
+    "PC",
+    "PET Resin",
+    "PP",
+    "PS",
+    "Poly Carbonate",
+    "Polystyrene",
+    "eva",
+    "polycarbonate",
+    "polypropylene",
+    "polystyrene"
+  ],
+  "duplicate_raw_date_product_key_rows": 80,
+  "evaluation_eligible_target_rows": 117,
+  "evaluation_horizon_months": 6,
+  "evaluation_origins": [
+    "2025-01-01",
+    "2025-07-01"
+  ],
+  "evaluation_rows": 120,
+  "exact_duplicate_rows": 80,
+  "future_as_of_date": "2025-12-01",
+  "future_forecast_rows": 60,
+  "invalid_numeric_by_column": {
+    "Demand_Tonnes": 1,
+    "Export_Tonnes": 1,
+    "Import_Tonnes": 1,
+    "Inventory_Tonnes": 1,
+    "Production_Tonnes": 1
+  },
+  "missing_numeric_by_column": {
+    "Competitor_Price_INR_per_Tonne": 49,
+    "Construction_Activity_Index": 47,
+    "Crude_Oil_USD_per_Barrel": 46,
+    "Electricity_Cost_INR_per_kWh": 45,
+    "Ethylene_USD_per_Tonne": 45,
+    "Export_Tonnes": 48,
+    "Freight_USD_per_Tonne": 47,
+    "Humidity_Percent": 47,
+    "Import_Tonnes": 47,
+    "Installed_Capacity_Tonnes": 45,
+    "International_Price_USD_per_Tonne": 46,
+    "Naphtha_USD_per_Tonne": 46,
+    "Natural_Gas_USD_per_MMBtu": 46,
+    "Order_Backlog_Tonnes": 46,
+    "Packaging_Demand_Index": 45,
+    "Port_Congestion_Index": 45,
+    "Propylene_USD_per_Tonne": 46,
+    "Rainfall_mm": 45,
+    "Sales_Volume_Tonnes": 46,
+    "Seasonal_Promotion_Flag": 46,
+    "Supplier_Lead_Time_Days": 45,
+    "Temperature_C": 46,
+    "USD_INR": 45,
+    "WPI_Index": 46
+  },
+  "modeled_series": {
+    "ABS": {
+      "first_month": "2000-01-01",
+      "last_month": "2025-12-01",
+      "source_label": "ABS",
+      "valid_month_observations": 300
+    },
+    "EVA": {
+      "first_month": "2000-01-01",
+      "last_month": "2025-12-01",
+      "source_label": "ETHYLENE VINYL ACETATE (EVA)",
+      "valid_month_observations": 299
+    },
+    "HDPE": {
+      "first_month": "2000-01-01",
+      "last_month": "2025-12-01",
+      "source_label": "HDPE",
+      "valid_month_observations": 304
+    },
+    "LDPE": {
+      "first_month": "2000-01-01",
+      "last_month": "2025-12-01",
+      "source_label": "LDPE",
+      "valid_month_observations": 307
+    },
+    "LLDPE": {
+      "first_month": "2000-01-01",
+      "last_month": "2025-12-01",
+      "source_label": "LLDPE",
+      "valid_month_observations": 306
+    },
+    "PC": {
+      "first_month": "2000-01-01",
+      "last_month": "2025-12-01",
+      "source_label": "POLYCARBONATE (PC)",
+      "valid_month_observations": 297
+    },
+    "PET": {
+      "first_month": "2000-01-01",
+      "last_month": "2025-12-01",
+      "source_label": "PET",
+      "valid_month_observations": 299
+    },
+    "PP": {
+      "first_month": "2000-01-01",
+      "last_month": "2025-12-01",
+      "source_label": "POLYPROPYLENE (PP)",
+      "valid_month_observations": 302
+    },
+    "PS": {
+      "first_month": "2000-01-01",
+      "last_month": "2025-12-01",
+      "source_label": "POLYSTYRENE (PS)",
+      "valid_month_observations": 292
+    },
+    "PVC": {
+      "first_month": "2000-01-01",
+      "last_month": "2025-12-01",
+      "source_label": "PVC",
+      "valid_month_observations": 304
+    }
+  },
+  "modeling_target_rows": 3010,
+  "negative_quantity_by_column": {
+    "Demand_Tonnes": 1,
+    "Export_Tonnes": 1,
+    "Import_Tonnes": 1,
+    "Inventory_Tonnes": 1,
+    "Production_Tonnes": 1
+  },
+  "raw_unit_counts": {
+    "INR/kg": 104,
+    "INR/tonne": 3096
+  },
+  "row_level_audit_rows": 3200,
+  "schema_notes": {
+    "competitor_price": "Header says INR per tonne; not used as a model feature.",
+    "domestic_price": "Header says INR per tonne while Price_Unit includes INR/kg. Explicit units are normalized in a separate audit-only field; unknown units are withheld.",
+    "international_price": "Header says USD per tonne; not used as a model feature.",
+    "market_and_operations": "Economic, commodity, weather, capacity, logistics, and promotion fields are present, but excluded because forecast-time availability is not established.",
+    "quantities": "Fields ending in _Tonnes are quantities; negative quantity values are audited. Only negative Demand_Tonnes is excluded from modeling.",
+    "target": "Demand_Tonnes is the forecast target, labeled tonnes; no target unit conversion is applied."
+  },
+  "source_rows": 3200,
+  "target_exclusion_counts": {
+    "alias_not_merged_or_not_primary_series": 59,
+    "ambiguous_slash_date": 52,
+    "exact_duplicate": 80,
+    "negative_target": 1,
+    "target_invalid": 1
+  },
+  "unit_status_counts": {
+    "converted_inr_per_kg": 104,
+    "verified_inr_per_tonne": 3096
+  },
+  "unmapped_product_labels": []
+}

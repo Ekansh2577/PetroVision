@@ -1,0 +1,28 @@
+product,current_average_price_inr_per_tonne,competitor_average_price_inr_per_tonne,recommended_average_price_inr_per_tonne,calculated_price_change_percent,unit_status,review_note
+A.B.S.,124390.94,123421.94,125890.38,1.205425,VERIFIED_INR_PER_TONNE,Raw source rows for this exact label declare INR/tonne.
+ABS,,122900.20,125358.20,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
+ABS RESIN,134778.22,138187.42,140951.17,4.580080,VERIFIED_INR_PER_TONNE,Raw source rows for this exact label declare INR/tonne.
+ETHYLENE VINYL ACETATE (EVA),,105756.21,107871.34,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
+ETHYLENE-VINYL ACETATE,101222.29,103075.38,105136.88,3.867320,VERIFIED_INR_PER_TONNE,Raw source rows for this exact label declare INR/tonne.
+EVA,112813.36,115169.23,117472.61,4.130052,VERIFIED_INR_PER_TONNE,Raw source rows for this exact label declare INR/tonne.
+HDPE,,77190.19,78734.00,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
+HIGH DENSITY POLYETHYLENE,78511.69,76529.79,78060.38,-0.574832,VERIFIED_INR_PER_TONNE,Raw source rows for this exact label declare INR/tonne.
+LDPE,,79901.05,81499.07,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
+LINEAR LOW DENSITY PE,80875.98,82662.60,84315.85,4.253265,VERIFIED_INR_PER_TONNE,Raw source rows for this exact label declare INR/tonne.
+LLDPE,,73165.19,74628.50,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
+LOW DENSITY POLYETHYLENE,,81979.02,83618.61,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
+P.E.T.,54911.76,55061.92,56163.16,2.278929,VERIFIED_INR_PER_TONNE,Raw source rows for this exact label declare INR/tonne.
+P.V.C.,78470.00,81525.39,83155.90,5.971581,CONVERTED_FROM_INR_PER_KG,Raw source rows for this exact label declare INR/kg; current price converted to INR/tonne.
+PC,,168525.93,171896.45,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
+PET,,61743.06,62977.92,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
+PET RESIN,56181.93,55510.00,56620.21,0.780108,VERIFIED_INR_PER_TONNE,Raw source rows for this exact label declare INR/tonne.
+POLY CARBONATE,158640.39,153860.44,156937.65,-1.073333,VERIFIED_INR_PER_TONNE,Raw source rows for this exact label declare INR/tonne.
+POLYCARBONATE,154072.68,137402.25,140150.30,-9.036242,VERIFIED_INR_PER_TONNE,Raw source rows for this exact label declare INR/tonne.
+POLYCARBONATE (PC),,155156.98,158260.12,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
+POLYPROPYLENE,71920.41,68318.85,69685.23,-3.107852,VERIFIED_INR_PER_TONNE,Raw source rows for this exact label declare INR/tonne.
+POLYPROPYLENE (PP),,82888.55,84546.32,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
+POLYSTYRENE,,92051.51,93892.54,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
+POLYSTYRENE (PS),,88824.16,90600.64,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
+PP,,85977.48,87697.03,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
+PS,77101.19,75979.83,77499.43,0.516516,VERIFIED_INR_PER_TONNE,Raw source rows for this exact label declare INR/tonne.
+PVC,,66016.10,67336.42,,REVIEW_REQUIRED,Raw source rows for this exact label have mixed or unavailable units; current price and percentage withheld.
